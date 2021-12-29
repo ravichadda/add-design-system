@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import PropTypes from 'prop-types';
-import CalendarIcon from '@add/icons/Calendar';
-import Cross from '@add/icons/Cross';
+import CalendarIcon from '@strapi/icons/Calendar';
+import Cross from '@strapi/icons/Cross';
 import { sizes } from '../themes/sizes';
 import { TextInput } from '../TextInput';
 import { DatePickerButton, DatePickerWrapper, IconBox } from './components';

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Clock from '@add/icons/Clock';
+import Clock from '@strapi/icons/Clock';
 import styled from 'styled-components';
 import { sizes } from '../themes/sizes';
 import { Select, Option } from '../Select';

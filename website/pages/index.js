@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Layout from 'components/Layout';
 import { getNavbarContent } from 'lib/mdx';
-import { Typography } from '@add/design-system/Typography';
-import { Box } from '@add/design-system/Box';
-import { Grid, GridItem } from '@add/design-system/Grid';
-import { Icon } from '@add/design-system/Icon';
-import ArrowRight from '@add/icons/ArrowRight';
+import { Typography } from '@strapi/design-system/Typography';
+import { Box } from '@strapi/design-system/Box';
+import { Grid, GridItem } from '@strapi/design-system/Grid';
+import { Icon } from '@strapi/design-system/Icon';
+import ArrowRight from '@strapi/icons/ArrowRight';
 import StyledLink from 'components/StyledLink';
 import PropTypes from 'prop-types';
 

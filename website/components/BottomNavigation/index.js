@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import StyledLink from 'components/StyledLink';
-import { Typography } from '@add/design-system/Typography';
-import { Flex } from '@add/design-system/Flex';
-import { Box } from '@add/design-system/Box';
+import { Typography } from '@strapi/design-system/Typography';
+import { Flex } from '@strapi/design-system/Flex';
+import { Box } from '@strapi/design-system/Box';
 import Link from 'next/link';
 
 const Wrapper = styled.div`

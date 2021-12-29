@@ -1,5 +1,5 @@
-import { Typography } from '@add/design-system/Typography';
-import { Box } from '@add/design-system/Box';
+import { Typography } from '@strapi/design-system/Typography';
+import { Box } from '@strapi/design-system/Box';
 
 const components = {
   h1: (props) => {

@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import ChevronLeft from '@add/icons/ChevronLeft';
-import ChevronRight from '@add/icons/ChevronRight';
+import ChevronLeft from '@strapi/icons/ChevronLeft';
+import ChevronRight from '@strapi/icons/ChevronRight';
 import { NavLink } from 'react-router-dom';
 import { VisuallyHidden } from '../VisuallyHidden';
 import { usePagination } from './PaginationContext';

@@ -4,7 +4,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 
 // Allows to create distinct bundles in the dist folder
 // for people wanting to import only specific components such as
-// import Button from '@add/design-system/Button
+// import Button from '@strapi/design-system/Button
 const excludedFolders = ['helpers', '.DS_Store'];
 const fileNames = fs.readdirSync(path.resolve(__dirname, 'src'));
 const entry = fileNames
@@ -73,7 +73,7 @@ module.exports = {
   ],
   resolve: {
     alias: {
-      '@add/icons': path.dirname(require.resolve('../strapi-icons/dist')),
+      '@strapi/icons': path.dirname(require.resolve('../strapi-icons/dist')),
     },
   },
 };

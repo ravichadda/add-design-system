@@ -1,7 +1,7 @@
 <!--- TimePicker.stories.mdx --->
 
 import { useState } from 'react';
-import * as Icons from '@add/icons';
+import * as Icons from '@strapi/icons';
 import { Meta, Story, Canvas } from '@storybook/addon-docs/blocks';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { Box } from '../Box';
@@ -173,7 +173,7 @@ Description...
                     </Box>
                     <Box>
                       <Tooltip description="Copy import">
-                        <CopyToClipboard text={`import ${icon} from '@add/icons/${icon}';`}>
+                        <CopyToClipboard text={`import ${icon} from '@strapi/icons/${icon}';`}>
                           <Typography fontWeight="bold" as="button" type="button">
                             {icon}
                           </Typography>

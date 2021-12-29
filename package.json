@@ -9,7 +9,7 @@
     "analyze:bundle": "lerna run analyze:bundle --stream",
     "bootstrap": "lerna bootstrap",
     "build-storybook": "lerna run build-storybook --stream",
-    "build": "lerna run build --stream --scope=@add/icons && lerna run build --stream --scope=@add/design-system",
+    "build": "lerna run build --stream --scope=@strapi/icons && lerna run build --stream --scope=@strapi/design-system",
     "generate": "plop",
     "lint-staged": "lerna run lint-staged --stream --",
     "lint": "lerna run lint --stream",

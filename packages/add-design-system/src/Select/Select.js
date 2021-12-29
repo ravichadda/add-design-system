@@ -1,7 +1,7 @@
 import React, { Children, cloneElement, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
-import CarretDown from '@add/icons/CarretDown';
-import Cross from '@add/icons/Cross';
+import CarretDown from '@strapi/icons/CarretDown';
+import Cross from '@strapi/icons/Cross';
 import { sizes } from '../themes/sizes';
 import { SelectButton } from './SelectButton';
 import { Field, FieldHint, FieldLabel, FieldError } from '../Field';

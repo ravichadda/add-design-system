@@ -1,8 +1,8 @@
 import React, { forwardRef, useRef } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import Search from '@add/icons/Search';
-import Cross from '@add/icons/Cross';
+import Search from '@strapi/icons/Search';
+import Cross from '@strapi/icons/Cross';
 import { sizes } from '../themes/sizes';
 import { Field, FieldLabel, FieldAction, FieldInput, InputWrapper } from '../Field';
 import { VisuallyHidden } from '../VisuallyHidden';

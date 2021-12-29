@@ -2,10 +2,10 @@ import Head from 'components/Head';
 import Navbar from 'components/Navbar';
 import StyledLink from 'components/StyledLink';
 import PropTypes from 'prop-types';
-import { Layout as PageLayout, ContentLayout } from '@add/design-system/Layout';
-import { Box } from '@add/design-system/Box';
-import { Stack } from '@add/design-system/Stack';
-import { Main } from '@add/design-system/Main';
+import { Layout as PageLayout, ContentLayout } from '@strapi/design-system/Layout';
+import { Box } from '@strapi/design-system/Box';
+import { Stack } from '@strapi/design-system/Stack';
+import { Main } from '@strapi/design-system/Main';
 
 const Layout = ({ children, meta, navigationContent }) => {
   return (

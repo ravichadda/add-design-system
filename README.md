@@ -1,32 +1,11 @@
-<p align="center">
-  <a href="https://strapi.io">
-    <img src="./assets/logo.svg" width="318px" alt="Strapi logo" />
-  </a>
-</p>
-<p align="center">
-<a style='margin-right:10px' href="https://design-system.strapi.io/">Documentation</a>|<a style='margin-left:10px' href="https://design-system-git-master-strapijs.vercel.app/">Try components</a></p>
-<br />
-
-<p align="center">
-  <a href="https://www.npmjs.org/package/@add/design-system">
-    <img src="https://img.shields.io/npm/v/@add/design-system/latest.svg" alt="NPM Version" />
-  </a>
-    <img alt="Bundle Size" src="https://badgen.net/bundlephobia/minzip/@add/design-system"/>
-  <a href="https://github.com/strapi/design-system/actions/workflows/playwright-ci.yml">
-    <img src="https://github.com/strapi/design-system/actions/workflows/playwright-ci.yml/badge.svg" alt="Playwright tests" />
-  </a>
-  <a href="https://discord.strapi.io">
-    <img src="https://img.shields.io/discord/811989166782021633?label=Discord" alt="Strapi on Discord" />
-  </a>
-</p>
 
 # Welcome! 👋
 
-Strapi Design System provides guidelines and tools to help anyone make Strapi's contributions more cohesive and to build plugins more efficiently.
+MyAdd Design System provides guidelines and tools to help anyone make MyAdd's contributions more cohesive and to build plugins more efficiently.
 
 ## Installation
 
-Install Strapi Design System and its peer dependencies:
+Install MyAdd Design System and its peer dependencies:
 
 ```sh
 $ yarn add @add/design-system @add/icons styled-components react-router-dom

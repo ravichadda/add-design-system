@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import CarretDown from '@add/icons/CarretDown';
+import CarretDown from '@strapi/icons/CarretDown';
 import { Box } from '../Box';
 import { Flex } from '../Flex';
 import { Typography } from '../Typography';

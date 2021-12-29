@@ -2,7 +2,7 @@ import Layout from 'components/Layout';
 import { serialize } from 'next-mdx-remote/serialize';
 import { MDXRemote } from 'next-mdx-remote';
 import { getFileBySlug, getFiles, getNavbarContent } from 'lib/mdx';
-import { Box } from '@add/design-system/Box';
+import { Box } from '@strapi/design-system/Box';
 import BottomNavigation from 'components/BottomNavigation';
 import PropTypes from 'prop-types';
 import components from 'components/MarkdownComponents';

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import PropTypes from 'prop-types';
-import { SubNavSection, SubNavLink } from '@add/design-system/SubNav';
+import { SubNavSection, SubNavLink } from '@strapi/design-system/SubNav';
 import React from 'react';
 
 const CustomLink = React.forwardRef((props, ref) => {

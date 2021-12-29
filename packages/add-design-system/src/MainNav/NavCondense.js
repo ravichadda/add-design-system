@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import ChevronRight from '@add/icons/ChevronRight';
-import ChevronLeft from '@add/icons/ChevronLeft';
+import ChevronRight from '@strapi/icons/ChevronRight';
+import ChevronLeft from '@strapi/icons/ChevronLeft';
 import { Icon } from '../Icon';
 import { VisuallyHidden } from '../VisuallyHidden';
 import { useMainNav } from './MainNavContext';
