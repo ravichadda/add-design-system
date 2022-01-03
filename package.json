@@ -43,5 +43,10 @@
   "lint-staged": {
     "*.{js,jsx}": "yarn lint-staged"
   },
-  "dependencies": {}
+  "dependencies": {},
+  
+  "files": [
+      "dist"
+    ]
+  
 }
